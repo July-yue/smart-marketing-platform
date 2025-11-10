@@ -1,3 +1,9 @@
 .deploy
 .malagu
 .DS_Store
+node_modules/
+package-lock.json
+core.*
+.env
+.DS_Store
+*.log
