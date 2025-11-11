@@ -28,3 +28,8 @@
 
 ### AI功能
 - POST /api/projects/:id/generate-plan - 生成营销方案
+## 前端开发
+前端代码位于 `frontend/` 目录
+```bash
+cd frontend && npm install && npm run dev
+```
