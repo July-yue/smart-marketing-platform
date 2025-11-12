@@ -33,3 +33,13 @@
 ```bash
 cd frontend && npm install && npm run dev
 ```
+```markdown
+## 🎨 前端开发
+
+前端代码位于 `frontend/` 目录，使用 React + Vite 构建。
+
+### 快速开始
+```bash
+cd frontend
+npm install
+npm run dev

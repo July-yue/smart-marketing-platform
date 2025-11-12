@@ -1,0 +1,14 @@
+{
+  "name": "smart-marketing-ai",
+  "version": "1.0.0",
+  "description": "AI营销推荐服务",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

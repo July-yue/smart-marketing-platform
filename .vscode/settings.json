@@ -1,6 +1,9 @@
 {
-    "frontend.port": 3000,
-    "backend.port": 8080,
-    "python.pythonPath": "/usr/bin/python3",
-    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/target": true
   }
+}

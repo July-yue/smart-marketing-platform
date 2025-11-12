@@ -7,3 +7,13 @@ core.*
 .env
 .DS_Store
 *.log
+```gitignore
+# 前端相关忽略
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/*.log
+
+# 文档构建输出
+docs/_build/

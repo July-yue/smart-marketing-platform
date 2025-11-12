@@ -6,12 +6,13 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
-    strictPort: false,
+    strictPort: false,  // 改为 false，如果端口被占用会自动找其他端口
     allowedHosts: [
-      '12683a5690b40b790c0c119492ee52b-5173.ap-shanghai2.cloudstudio.club',
-      'ap-shanghai2.cloudstudio.club',
+      '127683a5690b400f90c0e119492ee52b—5173.ap-shanghai2.cloudstudio.club',
       '.cloudstudio.club',
-      'localhost'
+      '.ap-shanghai2.cloudstudio.club',
+      'localhost',
+      '127.0.0.1'
     ],
     proxy: {
       '/api': {
